@@ -1,2 +1,6 @@
 image:
   file: .gitpod.Dockerfile
+github:
+  prebuilds:
+    # enable for all branches in this repo (defaults to false)
+    branches: true
