@@ -1,6 +1,7 @@
 FROM gitpod/workspace-full:2022-05-08-14-31-53
 
-RUN apt update && apt -y upgrade
+RUN sudo apt update 
+RUN sudo apt -y upgrade
 RUN sudo apt install awscli -y
 
 RUN mkdir /home/gitpod/.aws/
